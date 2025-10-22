@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
+/* Hero principal - arroz em close */
+.hero {
+  background-image: url('img/arroz-close.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 85vh;
+  position: relative;
+  color: white;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Texto central da capa */
+.hero h1, .hero p {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+/* Seção Quem Somos */
+#quem-somos {
+  background-color: #f8f9fa;
+}
+
+/* Seção Família - arroz à mesa */
+.familia {
+  background-image: url('img/arroz-mesa.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 70vh;
+  position: relative;
+  color: white;
+}
+
+.familia .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+/* Títulos */
+h2 {
+  color: #2a572b;
+  font-weight: 600;
+}
+
+/* Rodapé */
+footer {
+  background-color: #2a572b !important;
+  color: #fff;
+}
+
+/* Seção Do Campo à Mesa */
+#campo {
+  background-color: #f9faf9;
+}
+
+#campo img {
+  border-radius: 12px;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+@media (max-width: 768px) {
+  #campo .row {
+    flex-direction: column-reverse;
+  }
+}
