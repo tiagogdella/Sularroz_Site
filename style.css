@@ -4,12 +4,12 @@ body {
   scroll-behavior: smooth;
 }
 
-.hero, .familia, .campo {
+.hero, .familia {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll; /* antes era fixed */
-  min-height: 100vh; /* cobre toda a tela */
+  background-attachment: scroll;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,6 +20,10 @@ body {
 /* Imagens individuais */
 .hero {
   background-image: url('img/arroz-close.jpg');
+}
+
+.familia {
+  background-image: url('img/arroz-mesa.png');
 }
 
 .hero .overlay {
@@ -77,9 +81,8 @@ footer {
 
 /* Efeito fixed para telas grandes*/
 @media (min-width: 992px) {
-  .hero, .familia, .campo {
-    background-attachment: fixed; 
-
+  .hero, .familia {
+    background-attachment: fixed;
   }
 }
 @media (max-width: 768px) {
