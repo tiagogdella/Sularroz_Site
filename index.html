@@ -1,172 +1,287 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Sularroz - Engenho de arroz beneficiado em Meleiro, SC. Mais de 30 anos de experiência, beneficiamento para terceiros e comercialização em bags." />
-    <title>Sularroz - Qualidade em Arroz Beneficiado</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sularroz | Arroz beneficiado em Meleiro - SC</title>
+  <meta name="description" content="Sularroz, marca da Migra Alimentos LTDA. Arroz branco agulhinha, parboilizado e integral tipo 1, beneficiado em Meleiro - SC há mais de 30 anos. Marca própria, embalagens personalizadas e venda em bags.">
+  <link rel="canonical" href="https://sularroz.com.br/">
+  <meta name="theme-color" content="#8A1B22">
 
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
-    
-    <!-- Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+  <!-- Compartilhamento (WhatsApp, Facebook, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Sularroz">
+  <meta property="og:title" content="Sularroz | Cuidado no campo, excelência no sabor">
+  <meta property="og:description" content="Arroz beneficiado em Meleiro - SC há mais de 30 anos. Uma marca da Migra Alimentos LTDA.">
+  <meta property="og:url" content="https://sularroz.com.br/">
+  <meta property="og:image" content="https://sularroz.com.br/img/site/og-sularroz.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Ícones -->
+  <link rel="icon" href="img/site/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/site/favicon-32.png">
+  <link rel="apple-touch-icon" href="img/site/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
 
-    <!-- CSS personalizado -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
-      <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-          <img class="img-fluid" style="max-width: 10%; height: auto;" src="img/logo-sularroz.png" alt="Logo Sularroz" width="134" height="60" />
+  <link rel="preload" as="image" href="img/site/hero-arroz-1200.webp"
+        imagesrcset="img/site/hero-arroz-800.webp 800w, img/site/hero-arroz-1200.webp 1200w, img/site/hero-arroz-1920.webp 1920w"
+        imagesizes="100vw" fetchpriority="high">
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Sularroz",
+    "description": "Engenho de arroz beneficiado. Arroz branco agulhinha, parboilizado e integral, marca própria e venda em bags.",
+    "url": "https://sularroz.com.br/",
+    "logo": "https://sularroz.com.br/img/site/logo-sularroz.png",
+    "image": "https://sularroz.com.br/img/site/og-sularroz.jpg",
+    "telephone": "+55-48-3537-1178",
+    "email": "sac@migraalimentos.com.br",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Meleiro",
+      "addressRegion": "SC",
+      "addressCountry": "BR"
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Migra Alimentos LTDA"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Ícones SVG (substituem o Font Awesome) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></g></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.6 2.6A2 2 0 0 0 11.2 2H4a2 2 0 0 0-2 2v7.2a2 2 0 0 0 .6 1.4l8.7 8.7a2.4 2.4 0 0 0 3.4 0l6.6-6.6a2.4 2.4 0 0 0 0-3.4Z"/><circle cx="7.5" cy="7.5" r="1.5"/></g></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5M12 22V12"/></g></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2M15 18H9M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></g></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></symbol>
+  </svg>
+
+  <!-- Cabeçalho -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Sularroz - início">
+        <img src="img/site/logo-sularroz.png" alt="Sularroz" width="160" height="38">
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <svg class="icon"><use href="#i-menu"/></svg>
+      </button>
+      <nav id="menu" class="nav" aria-label="Principal">
+        <a href="#produtos">Produtos</a>
+        <a href="#marca-propria">Marca própria</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+        <a class="btn btn-gold btn-sm" href="https://wa.me/554835371178?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Sularroz." target="_blank" rel="noopener">
+          <svg class="icon"><use href="#i-wa"/></svg> WhatsApp
         </a>
-      </div>
-    </nav>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Hero / Capa -->
-    <header class="hero d-flex align-items-center justify-content-center text-center text-light">
-      <div class="overlay"></div>
-      <div class="container position-relative">
-        <img class="img-fluid" style="max-width: 30%;" src="img/logo-sularroz.png" alt="Sularroz - Engenho de Arroz" width="336" height="150">
-        <h1 class="lead">Qualidade em arroz beneficiado há mais de 30 anos</h1>
+  <main>
+    <!-- Capa -->
+    <section class="hero" id="inicio">
+      <img class="hero-bg" src="img/site/hero-arroz-1200.webp"
+           srcset="img/site/hero-arroz-800.webp 800w, img/site/hero-arroz-1200.webp 1200w, img/site/hero-arroz-1920.webp 1920w"
+           sizes="100vw" alt="" fetchpriority="high" width="1920" height="1280">
+      <div class="container hero-content">
+        <p class="eyebrow">Engenho em Meleiro · SC · há mais de 30 anos</p>
+        <h1>Cuidado no campo,<br> excelência no sabor.</h1>
+        <p class="hero-text">Arroz tipo 1 beneficiado com a tradição de quem vive o arroz há mais de três décadas, do campo à mesa da sua família.</p>
+        <div class="hero-actions">
+          <a href="#produtos" class="btn btn-gold">Conheça nossos produtos</a>
+          <a href="#marca-propria" class="btn btn-outline">Marca própria e bags</a>
+        </div>
       </div>
-    </header>
+      <div class="smile" aria-hidden="true"></div>
+    </section>
 
-    <!-- Seção Quem Somos -->
-    <section class="py-5 bg-light" id="quem-somos">
-      <div class="container text-center">
-        <h2 class="mb-4 text-success">Quem Somos</h2>
-        <p class="lead">
-          Somos um engenho de arroz localizado em <strong>Meleiro - SC</strong>, com mais de
-          <strong>30 anos de experiência</strong> no beneficiamento de arroz.
-          A marca <strong>Sularroz</strong> é nova,
-          mas carrega a tradição e qualidade que sempre nos acompanharam.
-        </p>
-        <p class="lead">
-          Além de nossa própria marca, somos <strong>especialistas em beneficiamento de arroz para terceiros</strong>,
-          oferecendo produção sob medida para marcas próprias, embalagens personalizadas e comercialização em bags.
-        </p>
+    <!-- Produtos -->
+    <section class="section" id="produtos">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">Linha Sularroz</p>
+          <h2>Nossos produtos</h2>
+          <p>Grãos longos e finos, tipo 1, selecionados para render bem na panela e no prato.</p>
+        </header>
+
+        <div class="products">
+          <article class="product" style="--accent: var(--blue)">
+            <div class="product-img">
+              <img src="img/site/arroz-branco-400.webp" srcset="img/site/arroz-branco-400.webp 400w, img/site/arroz-branco-800.webp 800w" sizes="(min-width: 900px) 360px, 90vw" alt="Pacote de 5 kg de Arroz Branco Agulhinha Sularroz" width="400" height="400" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-tag">5 kg</span>
+              <h3>Arroz Branco Agulhinha</h3>
+              <p>Tipo 1 · Longo fino · Polido. Soltinho e versátil para o dia a dia.</p>
+              <a class="link" href="https://wa.me/554835371178?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Arroz%20Branco%20Agulhinha%20Sularroz." target="_blank" rel="noopener">Pedir pelo WhatsApp →</a>
+            </div>
+          </article>
+
+          <article class="product" style="--accent: var(--red)">
+            <div class="product-img">
+              <img src="img/site/arroz-parboilizado-400.webp" srcset="img/site/arroz-parboilizado-400.webp 400w, img/site/arroz-parboilizado-800.webp 800w" sizes="(min-width: 900px) 360px, 90vw" alt="Pacote de 5 kg de Arroz Parboilizado Sularroz" width="400" height="400" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-tag">5 kg</span>
+              <h3>Arroz Parboilizado</h3>
+              <p>Tipo 1 · Longo fino · Parboilizado polido. Grãos firmes que não empapam.</p>
+              <a class="link" href="https://wa.me/554835371178?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Arroz%20Parboilizado%20Sularroz." target="_blank" rel="noopener">Pedir pelo WhatsApp →</a>
+            </div>
+          </article>
+
+          <article class="product" style="--accent: var(--green)">
+            <div class="product-img">
+              <img src="img/site/arroz-integral-400.webp" srcset="img/site/arroz-integral-400.webp 400w, img/site/arroz-integral-800.webp 800w" sizes="(min-width: 900px) 360px, 90vw" alt="Pacote de 1 kg de Arroz Integral Sularroz" width="400" height="400" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-tag">1 kg</span>
+              <h3>Arroz Integral</h3>
+              <p>Tipo 1 · Longo fino · Parboilizado integral. Mais fibras e sabor marcante.</p>
+              <a class="link" href="https://wa.me/554835371178?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Arroz%20Integral%20Sularroz." target="_blank" rel="noopener">Pedir pelo WhatsApp →</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="note">É mercado, distribuidor ou atacadista? <a href="https://wa.me/554835371178?text=Ol%C3%A1%2C%20quero%20revender%20os%20produtos%20Sularroz." target="_blank" rel="noopener">Seja um revendedor Sularroz</a>.</p>
       </div>
     </section>
 
-    <!-- Seção Do Campo à Mesa -->
-    <section class="py-5" id="campo">
+    <!-- Marca própria / Terceirização -->
+    <section class="section section-red" id="marca-propria">
       <div class="container">
-        <div class="row align-items-center">
-          <!-- Texto -->
-          <div class="col-md-6 mb-4 mb-md-0">
-            <h2 class="text-success mb-3">Do Campo à Mesa</h2>
-            <p class="lead">
-              Cada grão de arroz que chega à sua mesa nasce do trabalho e dedicação de quem vive o campo.
-            </p>
-            <p>
-              Da colheita ao beneficiamento, cuidamos de cada etapa com respeito à terra e à tradição — 
-              garantindo um produto de qualidade para todas as famílias.
-            </p>
-          </div>
-          <!-- Imagem -->
-          <div class="col-md-6 text-center">
-            <img style="max-height: 380px; width: auto; margin: 0 auto; display: block;" src="img/campo_arroz.jpg" alt="Plantio de arroz no campo" class="img-fluid rounded shadow" width="374" height="562">
-          </div>
-        </div>
-      </div>
-    </section>
+        <header class="section-head">
+          <p class="kicker">Para empresas</p>
+          <h2>Seu arroz, nossa experiência</h2>
+          <p>Beneficiamos, embalamos e entregamos arroz para a sua marca, com o mesmo padrão de qualidade da Sularroz.</p>
+        </header>
 
-    <!-- Seção Terceirização -->
-    <section class="py-5" id="terceirizacao">
-      <div class="container">
-        <div class="text-center mb-5">
-          <h2 class="text-success">Terceirização de Beneficiamento</h2>
-          <p class="lead">Seu arroz, nossa experiência.</p>
-        </div>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm text-center p-4">
-              <div class="card-body">
-                <i class="fas fa-industry fa-2x mb-3" style="color: #2a572b;"></i>
-                <h5 class="card-title fw-bold">Marca Própria</h5>
-                <p class="card-text">
-                  Beneficiamos e embalamos arroz com a <strong>sua marca</strong>.
-                  Produção personalizada com a qualidade de quem tem mais de 30 anos de experiência.
-                </p>
-              </div>
-            </div>
+        <div class="features">
+          <div class="feature">
+            <svg class="feature-icon" aria-hidden="true"><use href="#i-tag"/></svg>
+            <h3>Marca própria</h3>
+            <p>Produção sob medida com a <strong>sua marca</strong>, da seleção do grão ao pacote final.</p>
           </div>
-          <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm text-center p-4">
-              <div class="card-body">
-                <i class="fas fa-box-open fa-2x mb-3" style="color: #2a572b;"></i>
-                <h5 class="card-title fw-bold">Embalagens Personalizadas</h5>
-                <p class="card-text">
-                  Oferecemos diversas opções de embalagem, do <strong>1 kg ao 5 kg</strong>,
-                  com layout e identidade visual da sua empresa.
-                </p>
-              </div>
-            </div>
+          <div class="feature">
+            <svg class="feature-icon" aria-hidden="true"><use href="#i-box"/></svg>
+            <h3>Embalagens personalizadas</h3>
+            <p>Pacotes de <strong>1 kg a 5 kg</strong> com o layout e a identidade visual da sua empresa.</p>
           </div>
-          <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm text-center p-4">
-              <div class="card-body">
-                <i class="fas fa-truck fa-2x mb-3" style="color: #2a572b;"></i>
-                <h5 class="card-title fw-bold">Venda em Bags</h5>
-                <p class="card-text">
-                  Comercialização de arroz beneficiado em <strong>bags</strong> para distribuidores,
-                  atacadistas e indústrias.
-                </p>
-              </div>
-            </div>
+          <div class="feature">
+            <svg class="feature-icon" aria-hidden="true"><use href="#i-truck"/></svg>
+            <h3>Venda em bags</h3>
+            <p>Arroz beneficiado em <strong>bags</strong> para distribuidores, atacadistas e indústrias.</p>
           </div>
         </div>
-        <div class="text-center mt-5">
-          <p class="mb-2"><i class="fas fa-map-marker-alt" style="color: #2a572b;"></i> Meleiro - SC</p>
-          <a href="https://wa.me/554835371178?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20terceiriza%C3%A7%C3%A3o%20de%20beneficiamento." class="btn btn-success btn-lg px-4" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-whatsapp me-2"></i>Solicite um Orçamento
+
+        <div class="center">
+          <a href="https://wa.me/554835371178?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20de%20marca%20pr%C3%B3pria%20%2F%20terceiriza%C3%A7%C3%A3o%20de%20beneficiamento." class="btn btn-gold btn-lg" target="_blank" rel="noopener">
+            <svg class="icon"><use href="#i-wa"/></svg> Solicite um orçamento
           </a>
         </div>
       </div>
     </section>
 
-    <!-- Seção Família -->
-    <section class="familia d-flex align-items-center justify-content-center text-center text-light">
-      <div class="overlay"></div>
-      <div class="container position-relative">
-        <h2 class="mb-4 fw-bold">Sabor que une famílias</h2>
-        <p class="lead">Arroz de qualidade para todos os momentos à mesa.</p>
+    <!-- Sobre -->
+    <section class="section section-cream" id="sobre">
+      <div class="container about">
+        <div>
+          <p class="kicker">Quem somos</p>
+          <h2>Do campo à mesa</h2>
+          <p>Somos um engenho de arroz em <strong>Meleiro, no sul de Santa Catarina</strong>, com mais de 30 anos de experiência no beneficiamento de arroz. A marca Sularroz é nova, mas carrega a tradição e a qualidade que sempre nos acompanharam.</p>
+          <p>Da colheita ao pacote, cuidamos de cada etapa com respeito à terra e a quem trabalha nela, para que cada grão chegue à mesa das famílias com o sabor de sempre.</p>
+          <p class="parent">Sularroz é uma marca da <strong>Migra Alimentos LTDA</strong>.</p>
+        </div>
+        <figure class="about-photo">
+          <img src="img/site/engenho-aereo-800.webp" srcset="img/site/engenho-aereo-800.webp 800w, img/site/engenho-aereo-1400.webp 1400w" sizes="(min-width: 900px) 540px, 92vw" alt="Vista aérea do engenho Sularroz em Meleiro - SC, com silos, galpão de beneficiamento e lavouras de arroz ao redor" width="1400" height="900" loading="lazy">
+          <figcaption>Nosso engenho em Meleiro - SC, cercado pelas lavouras de arroz.</figcaption>
+        </figure>
+        <dl class="stats">
+          <div><dt>30+</dt><dd>anos de experiência no beneficiamento</dd></div>
+          <div><dt>Tipo 1</dt><dd>padrão de qualidade em toda a linha</dd></div>
+          <div><dt>3</dt><dd>variedades: branco, parboilizado e integral</dd></div>
+          <div><dt>1 kg a bags</dt><dd>do pacote da família ao atacado</dd></div>
+        </dl>
       </div>
     </section>
 
     <!-- Contato -->
-    <section class="py-5" id="contato">
-      <div class="container text-center">
-        <h2 class="mb-4 text-success">Entre em Contato</h2>
-        <p class="lead"><i class="fas fa-envelope me-2" style="color: #2a572b;"></i> sac@sularroz.com.br</p>
-        <p class="lead"><i class="fas fa-phone me-2" style="color: #2a572b;"></i> (48) 3537-8100</p>
-        <p class="lead">
-          <a href="https://wa.me/554835371178" target="_blank" rel="noopener noreferrer" style="color: #2a572b; text-decoration: none;">
-            <i class="fab fa-whatsapp me-2"></i>WhatsApp: (48) 3537-1178
+    <section class="section" id="contato">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">Fale com a gente</p>
+          <h2>Contato</h2>
+          <p>Atendimento rápido pelo WhatsApp para pedidos, revenda e orçamentos.</p>
+        </header>
+
+        <div class="contacts">
+          <a class="contact contact-wa" href="https://wa.me/554835371178?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Sularroz." target="_blank" rel="noopener">
+            <svg class="contact-icon" aria-hidden="true"><use href="#i-wa"/></svg>
+            <span><strong>WhatsApp</strong>(48) 3537-1178</span>
           </a>
-        </p>
+          <a class="contact" href="tel:+554835371178">
+            <svg class="contact-icon" aria-hidden="true"><use href="#i-phone"/></svg>
+            <span><strong>Telefone</strong>(48) 3537-1178</span>
+          </a>
+          <a class="contact" href="mailto:sac@migraalimentos.com.br">
+            <svg class="contact-icon" aria-hidden="true"><use href="#i-mail"/></svg>
+            <span><strong>E-mail</strong>sac@migraalimentos.com.br</span>
+          </a>
+          <a class="contact" href="https://www.google.com/maps/search/?api=1&amp;query=Meleiro%2C%20SC" target="_blank" rel="noopener">
+            <svg class="contact-icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <span><strong>Localização</strong>Meleiro - SC</span>
+          </a>
+        </div>
       </div>
     </section>
+  </main>
 
-    <footer class="text-center py-3 bg-dark text-light">
-      <small>&copy; 2025 Sularroz. Todos os direitos reservados.</small>
-    </footer>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img src="img/site/logo-sularroz-branco.png" alt="Sularroz" width="180" height="43" loading="lazy">
+      <p>Sularroz é uma marca da <strong>Migra Alimentos LTDA</strong>.<br>Meleiro - SC · (48) 3537-1178 · sac@migraalimentos.com.br</p>
+      <p class="copy">© <span id="ano">2026</span> Migra Alimentos LTDA. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 
-    <!-- Botão Flutuante WhatsApp -->
-    <a href="https://wa.me/554835371178" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Fale conosco pelo WhatsApp">
-      <i class="fab fa-whatsapp"></i>
-    </a>
+  <!-- Botão flutuante WhatsApp -->
+  <a href="https://wa.me/554835371178?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Sularroz." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Fale conosco pelo WhatsApp">
+    <svg class="icon"><use href="#i-wa"/></svg>
+  </a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <script>
+    // Ano automático no rodapé
+    document.getElementById('ano').textContent = new Date().getFullYear();
+
+    // Menu mobile
+    const toggle = document.querySelector('.menu-toggle');
+    const header = document.querySelector('.site-header');
+    const setMenu = (open) => {
+      header.classList.toggle('menu-open', open);
+      toggle.setAttribute('aria-expanded', open);
+      toggle.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+      toggle.querySelector('use').setAttribute('href', open ? '#i-close' : '#i-menu');
+    };
+    toggle.addEventListener('click', () => setMenu(!header.classList.contains('menu-open')));
+    document.querySelectorAll('#menu a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+  </script>
+</body>
 </html>
